@@ -1,5 +1,5 @@
 # Notion-choose-ip
- 选择最优的Notion cloudflare节点. 目前只有Linux版脚本
+选择最优的Notion cloudflare节点. 目前只有Linux版脚本
 
 # 使用说明
 
