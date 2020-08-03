@@ -15,8 +15,15 @@ for i in `cat out_1.txt`
 sleep 5
 
 ls -Slrh --block-size=k temp > speed.txt
-rm -rf temp
 sort speed.txt -o sort_3.txt -d -k 5rn
 sed '2,$d' sort_3.txt > finalip.txt
 cut -f11 -d " "  finalip.txt > ip.txt
 cat ip.txt
+
+rm -rf temp
+rm out.txt
+rm  sort_3.txt
+rm sort.txt
+rm out_1.txt
+rm speed.txt
+rm finalip.txt
