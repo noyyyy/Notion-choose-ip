@@ -9,7 +9,7 @@
 sudo apt install fping curl
 ```
 
-仅在Deepin Linux下做过测试, 测试电脑配置为6核12线程, 16G内存. `available_ip.sh`脚本中, 由于并行较多, 大于占用了50%的CPU和20%多的内存, 使用时请注意您的电脑配置, 防止卡死
+仅在Deepin Linux下做过测试, 测试电脑配置为6核12线程, 16G内存. `available_ip.sh`脚本中, 由于并行较多, 大于占用了50%的CPU和20%多的内存, 使用时请注意您的电脑配置, 防止卡死. 方便起见, 直接运行`pingtest.sh`即可
 
 脚本都在src文件里,
 
