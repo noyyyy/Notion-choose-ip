@@ -11,8 +11,8 @@ mkdir temp
 for i in `cat out_1.txt`
 	do
 		echo 正在测试 $i
-		curl --resolve www.notion.so:443:$i https://www.notion.so/app-4ca8cd21ec209cfc38a6.js --output temp/$i -s --connect-timeout 2 --max-time 4 &
-		sleep 0.01
+		curl --resolve www.notion.so:443:$i https://www.notion.so/app-4ca8cd21ec209cfc38a6.js --output temp/$i -s --connect-timeout 1 --max-time 2 &
+		sleep 0.001
 	done
 sleep 5
 
