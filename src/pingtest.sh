@@ -16,7 +16,7 @@ for i in `cat out_1.txt`
 	done
 sleep 5
 
-ls -Slrh --block-size=k temp | sort -d -k 5rn | sed '2,$d' | cut -f11 -d " " > ip.txt
+ls -Slrh --block-size=k temp | sort -d -k 5rn | sed '2,$d' | cut -f10 -d " " > ip.txt
 cat ip.txt
 
 rm -rf temp
