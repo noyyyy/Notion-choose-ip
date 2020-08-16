@@ -1,3 +1,3 @@
-!#/bin/bash
+#!/usr/bin/bash
 bash pingtest.sh
 bash changhost.sh

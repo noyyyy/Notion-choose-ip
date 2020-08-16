@@ -2,7 +2,7 @@ mkdir temp
 for i in `cat cfip.txt`
 	do
 		echo 正在测试 $i
-		curl --resolve www.notion.so:443:$i https://www.notion.so --output temp/$i -s --connect-timeout 2 --max-time 2 &
+		curl --resolve www.notion.so:443:$i https://www.notion.so --output temp/$i -s --connect-timeout 0.5 --max-time 1 &
  	  sleep 0.05
 	done
 sleep 5
