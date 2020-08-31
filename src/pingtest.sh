@@ -2,6 +2,8 @@ fping -f avaip.txt -c 50 -i 0 > out.txt
 cat out.txt  | grep "\[49\]" |  grep ", 0%"   > sort.txt 
 cat out.txt  | grep "\[49\]" |  grep ", 2%"   >> sort.txt 
 cat out.txt  | grep "\[49\]" |  grep ", 4%"   >> sort.txt 
+cat out.txt  | grep "\[49\]" |  grep ", 6%"   >> sort.txt 
+cat out.txt  | grep "\[49\]" |  grep ", 8%"   >> sort.txt 
 cut -f1 -d: sort.txt  > out_1.txt
 
 mkdir temp
