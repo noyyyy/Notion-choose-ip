@@ -1,5 +1,5 @@
 
-更好的解决方案：[反向代理](https://github.com/Jerrywang959/notion-reverse-proxy)
+**不再更新**：更好的解决方案：[反向代理](https://github.com/Jerrywang959/notion-reverse-proxy)
 
 # Notion-choose-ip
 选择最优的Notion cloudflare节点. 由于个人能力限制, 目前只有Linux版脚本
